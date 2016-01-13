@@ -1,0 +1,7 @@
+# stage 1 docker-compose.yml
+web:
+    image: "demo_stage1"
+    ports:
+     - "5000:8000"
+    command: ./entry-point.sh 
+
