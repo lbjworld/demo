@@ -9,7 +9,7 @@ rproxy:
      - web:web
 
 web:
-    image: "demo_stage3"
+    image: "demo_stage2"
     volumes:
      - ./dj_demo/dj_demo/docker_settings.py:/code/dj_demo/settings.py
     links:
